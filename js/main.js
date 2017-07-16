@@ -44,7 +44,7 @@ const calcEstCost = () => {
 	} 
 
 	estCostPeak = parseFloat(valueOut) * 0.1; 
-	estCostOffPeak = parseFloat(valueOut) * 0.04; 
+	estCostOffPeak = parseFloat(valueOut) * 0.05; 
 
 	let valueIn = $('#numInCBD').val();
 	if (isNaN(valueIn)) {
@@ -54,7 +54,7 @@ const calcEstCost = () => {
 
 	if (valueIn > 0) {
 		estCostPeak += (parseFloat(valueIn * 0.1)) + 5; 
-		estCostOffPeak += (parseFloat(valueIn * 0.04)) + 5;
+		estCostOffPeak += (parseFloat(valueIn * 0.05)) + 5;
 	}
 
 	$('.est-cost-peak-display').text('$' + estCostPeak.toFixed(2));
