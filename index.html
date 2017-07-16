@@ -52,7 +52,7 @@
 									<span class="icon-bar"></span>
 								  </button>
 								  <div class="nav-logo">
-									<a href="#"><img src="img/logo.png" alt="logo"></a>
+									<a href="#"><img class='logo-img' src="img/logo.png" alt="logo"></a>
 								  </div>
 								</div>
 
@@ -70,7 +70,9 @@
                         <div class="block-right">
                             <div class="contact-area">
                                 <ul>
-                                    <li data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in"></i>Login</li>
+                                    <li class="login-hand" data-toggle="modal" data-target="#myModal">
+                                        <i class="fa fa-sign-in"></i>Login
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -89,12 +91,14 @@
                         <div class="block">
                             <div class="slider-text-area">
                                 <div class="slider-text">
-                                    <h2>Perfect app landing page <br></h2> 
-                                    <p class="sub-slider-text">Duis bibendum diam</p>
-                                    <p class="slider-p">Donec elementum mollis magna id aliquet. Etiam eleifend urna eget sem <br>
-                                    sagittis feugiat. Pellentesque habitant morbi tristique senectus et <br>
-                                    netus et malesuada fames ac turpis egestas.</p>
-                                    <button type="button" class="btn btn-default edit-button-1">DOWNLOAD</button>
+                                    <h2>A new way to pay for your Car's registration <br></h2> 
+                                    <p class="sub-slider-text">A complete Travel app</p>
+                                    <p class="slider-p">A revolutionary way to not only reduce traffic on our roads,
+                                        increase <br/>public transport usage and reduce cost to every user.
+                                        <br /><br/>
+                                        <span style="font-size:20px">Introducing modalMix!</span>
+                                        <br/>Pay your rego everyday completely based on your actual 
+                                        car usage.</p>
                                 </div>
                             </div>
                         </div>
@@ -175,13 +179,22 @@
             <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Modal Header</h4>
+                <h4 class="modal-title">Please login to your account</h4>
             </div>
             <div class="modal-body">
-                <p>Some text in the modal.</p>
+                <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" value='joebloggs@cityhack.com' aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" value='1234567' placeholder="Password">
+                </div>
+                </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary login-submit-btn" data-dismiss="modal">Submit</button>
             </div>
             </div>
 
@@ -195,7 +208,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/frontpage.js"></script>
 
     </body>
 </html>

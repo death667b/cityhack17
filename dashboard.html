@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,700,600,500' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
+
+
+        <link rel="stylesheet" href="css/slicknav.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+         
+         <!-- header Start
+         ================================================= -->
+        
+        <section id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="block-left">
+							<nav class="navbar navbar-default" role="navigation">
+							  <div class="container-fluid">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+								  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								  </button>
+								  <div class="nav-logo">
+									<a href="#"><img class='logo-img' src="img/logo.png" alt="logo"></a>
+								  </div>
+								</div>
+
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								  <ul class="nav navbar-nav">
+								  </ul>
+								</div><!-- /.navbar-collapse -->
+							  </div><!-- /.container-fluid -->
+							</nav>
+                        </div>
+                    </div><!-- .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <div class="block-right">
+                            <div class="contact-area">
+                                <ul>
+                                    <li>
+                                        Current Owing: <span class='current-owing'>$0.00</span>
+                                    </li>
+                                    <li class="login-hand sign-me-out">
+                                        <i class="fa fa-sign-out"></i>Logout
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- .col-md-6 close -->
+                </div><!-- .row close -->
+            </div><!-- .container close -->
+        </section><!-- #heder close -->
+
+
+        <!-- Service Start 
+        ============================================================= -->
+
+        <section id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1">
+                        <button type="button" style='visibility: hidden' class="btn btn-primary update-trips-btn">Update Trip History</button>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="block-top">
+                            <div class="service-header">
+                                <h1>DASHBOARD</h1>
+                                <p>Recent Trips</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Trip Calculator</button>
+                    </div>
+                </div><!-- row close -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block-bottom">
+							<div class="service-tab">
+								  <!-- Nav tabs -->
+								  <ul class="badhon-tab super-tab-list" role="tablist">
+									<li class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+									<i class="fa fa-circle"></i>
+									Trip <span class='tablist-number'>1</span>
+									</a></li>
+									<li><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+									<i class="fa fa-circle"></i>
+									Trip <span class='tablist-number'>2</span>
+									</a></li>
+									<li><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+									<i class="fa fa-circle"></i>
+									Trip <span class='tablist-number'>3</span>
+									</a></li>
+									<li><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+									<i class="fa fa-circle"></i>
+									Trip <span class='tablist-number'>4</span>
+									</a></li>
+									<li><a href="#umbrella" aria-controls="umbrella" role="tab" data-toggle="tab">
+									<i class="fa fa-circle"></i>
+									Trip <span class='tablist-number'>5</span>
+									</a></li>
+								  </ul>
+
+								  <!-- Tab panes -->
+								  <div class="tab-content edit-tab-content">
+									<div class="tab-pane active edit-tab" id="home">
+                                        <div class="flex-container">
+										<div class="box"><h1>Leg 1</h1>
+                                        <p><span class='trip-mode'>Mode:</span><span class='trip-mode-type'>Car</span></p>
+                                        <p><span class='trip-mode'>Distance:</span><span class='trip-mode-type'>23KM</span></p>
+                                        <p><span class='trip-mode'>Peak Hour:</span><span class='trip-mode-type'>Yes</span></p>
+                                        <p><span class='trip-mode'>Entered Inner Brisbane:</span><span class='trip-mode-type'>No</span></p>
+                                        <br/><p><span class='trip-mode'>Cost:</span><span class='trip-mode-type'>$2.30</span></p>
+                                        </div></div>
+                                        <div class="flex-container">
+                                            <div class="box-total">
+                                                <p><span class='trip-mode'>Total Trip Cost:</span><span class='trip-mode-type trip-total'>$2.30</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="tab-pane edit-tab" id="profile">
+                                        <div class="flex-container">
+										<div class="box"><h1>Leg 1</h1>
+                                        <p><span class='trip-mode'>Mode:</span><span class='trip-mode-type'>Car</span></p>
+                                        <p><span class='trip-mode'>Distance:</span><span class='trip-mode-type'>2KM</span></p>
+                                        <p><span class='trip-mode'>Peak Hour:</span><span class='trip-mode-type'>Yes</span></p>
+                                        <p><span class='trip-mode'>Entered Inner Brisbane:</span><span class='trip-mode-type'>No</span></p>
+                                        <br/><p><span class='trip-mode'>Cost:</span><span class='trip-mode-type'>$0.20</span></p>
+                                        </div><div class="box"><h1>Leg 2</h1>
+                                        <p><span class='trip-mode'>Mode:</span><span class='trip-mode-type'>Bus</span></p>
+                                        <p><span class='trip-mode'>Zones:</span><span class='trip-mode-type'>3</span></p>
+                                        <p><span class='trip-mode'>Time:</span><span class='trip-mode-type'>27 Minutes</span></p>
+                                        <p><span class='trip-mode'>Peak:</span><span class='trip-mode-type'>Yes</span></p>
+                                        <br/><p><span class='trip-mode'>Cost:</span><span class='trip-mode-type'>$5.96</span></p>
+                                        </div></div>
+                                    <div class="flex-container">
+                                            <div class="box-total">
+                                                <p><span class='trip-mode'>Total Trip Cost:</span><span class='trip-mode-type trip-total'>$6.16</span></p>
+                                            </div>
+                                        </div></div>
+									<div class="tab-pane edit-tab" id="settings">
+										<div class="flex-container">
+                                            <div class="box">
+                                                <h1>Leg 1</h1>
+                                                <p><span class='trip-mode'>Mode:</span><span class='trip-mode-type'>City Cycle</span></p>
+                                                <p><span class='trip-mode'>Zones:</span><span class='trip-mode-type'>1</span></p>
+                                                <p><span class='trip-mode'>Time:</span><span class='trip-mode-type'>14 Minutes</span></p>
+                                                <p><span class='trip-mode'>Peak:</span><span class='trip-mode-type'>NA</span></p>
+                                                <br/><p><span class='trip-mode'>Cost:</span><span class='trip-mode-type'>$0.00</span></p>
+                                            </div>
+                                            <div class="box">
+                                                <h1>Leg 2</h1>
+                                                <p><span class='trip-mode'>Mode:</span><span class='trip-mode-type'>Bus</span></p>
+                                                <p><span class='trip-mode'>Zones:</span><span class='trip-mode-type'>3</span></p>
+                                                <p><span class='trip-mode'>Time:</span><span class='trip-mode-type'>31 Minutes</span></p>
+                                                <p><span class='trip-mode'>Peak:</span><span class='trip-mode-type'>Yes</span></p>
+                                                <br/><p><span class='trip-mode'>Cost:</span><span class='trip-mode-type'>$5.96</span></p>
+                                            </div>
+                                            <div class="box">
+                                                <h1>Leg 4</h1>
+                                                <p><span class='trip-mode'>Mode:</span><span class='trip-mode-type'>City Cycle</span></p>
+                                                <p><span class='trip-mode'>Zones:</span><span class='trip-mode-type'>1</span></p>
+                                                <p><span class='trip-mode'>Time:</span><span class='trip-mode-type'>8 Minutes</span></p>
+                                                <p><span class='trip-mode'>Peak:</span><span class='trip-mode-type'>NA</span></p>
+                                                <br/><p><span class='trip-mode'>Cost:</span><span class='trip-mode-type'>$0.00</span></p>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="flex-container">
+                                            <div class="box-total">
+                                                <p><span class='trip-mode'>Total Trip Cost:</span><span class='trip-mode-type trip-total'>$5.96</span></p>
+                                            </div>
+                                        </div>
+									</div>
+									<div class="tab-pane edit-tab" id="messages">
+										<div class="flex-container">
+										<div class="box"><h1>Leg 1</h1>
+                                        <p><span class='trip-mode'>Mode:</span><span class='trip-mode-type'>City Cycle</span></p>
+                                        <p><span class='trip-mode'>Zones:</span><span class='trip-mode-type'>1</span></p>
+                                        <p><span class='trip-mode'>Time:</span><span class='trip-mode-type'>35 Minutes</span></p>
+                                        <p><span class='trip-mode'>Peak:</span><span class='trip-mode-type'>NA</span></p>
+                                        <br/><p><span class='trip-mode'>Cost:</span><span class='trip-mode-type'>$2.00</span></p>
+										</div><div class="box"><h1>Leg 2</h1>
+                                        <p><span class='trip-mode'>Mode:</span><span class='trip-mode-type'>Train</span></p>
+                                        <p><span class='trip-mode'>Zones:</span><span class='trip-mode-type'>4</span></p>
+                                        <p><span class='trip-mode'>Time:</span><span class='trip-mode-type'>45 Minutes</span></p>
+                                        <p><span class='trip-mode'>Peak:</span><span class='trip-mode-type'>No</span></p>
+                                        <br/><p><span class='trip-mode'>Cost:</span><span class='trip-mode-type'>$6.28</span></p>
+                                        </div></div>
+                                        <div class="flex-container">
+                                            <div class="box-total">
+                                                <p><span class='trip-mode'>Total Trip Cost:</span><span class='trip-mode-type trip-total'>$8.28</span></p>
+                                            </div>
+                                        </div>
+									</div>
+									<div class="tab-pane edit-tab" id="umbrella">
+										<div class="flex-container">
+										<div class="box"><h1>Leg 1</h1>
+                                        <p><span class='trip-mode'>Mode:</span><span class='trip-mode-type'>Car</span></p>
+                                        <p><span class='trip-mode'>Distance:</span><span class='trip-mode-type'>43KM</span></p>
+                                        <p><span class='trip-mode'>Peak Hour:</span><span class='trip-mode-type'>Yes</span></p>
+                                        <p><span class='trip-mode'>Entered Inner Brisbane:</span><span class='trip-mode-type'>Yes</span></p>
+                                        <br/><p><span class='trip-mode'>Cost:</span><span class='trip-mode-type'>$9.30</span><br/>
+                                        <span class='sugg-click' data-toggle="modal" data-target="#myModalxxx"><img class='ex-img' src="img/ex.png" alt="logo">You have a trip suggestion</span></p>
+                                        </div></div>
+                                    <div class="flex-container">
+                                            <div class="box-total">
+                                                <p><span class='trip-mode'>Total Trip Cost:</span><span class='trip-mode-type trip-total'>$9.30</span></p>
+                                            </div>
+                                        </div>
+									</div>
+								  </div>
+							</div>
+						</div>
+					</div><!-- .col-md-12 close -->
+				</div><!-- row close -->
+            </div><!-- .container close -->
+        </section><!-- #service close -->
+
+
+        
+
+
+        <!-- footer Start
+        ====================================================================== -->
+
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <div class="footer-contant">
+                                <h3>Say Hi, Get In Touch</h3>
+                                <div class="social-icon">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-tumblr"></i></a>
+                                    <a href="#"><i class="fa fa-google"></i></a>
+                                    <a href="#"><i class="fa fa-flickr"></i></a>
+                                    <a href="#"><i class="fa fa-youtube"></i></a>
+                                </div>
+                                <div class="support-link">
+                                    <ul>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">Press</a></li>
+                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">Developers</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- col-md-12 -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </section><!-- #footer -->
+
+
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Please enter the details of your trip</h4>
+            </div>
+            <div class="modal-body">
+                <form id="myform">
+                <div class="form-group">
+                    <label for="numOutCBD">Number of Kilometers in the greater Brisbane area</label>
+                    <input type="text" class="form-control" id="numOutCBD" aria-describedby="Outside CBD" value='0'>
+                </div>
+                <div class="form-group">
+                    <label for="numInCBD">Number of Kilometers inside the inner Brisbane area</label>
+                    <input type="text" class="form-control" id="numInCBD" aria-describedby="Inside CBD" value='0'>
+                </div>
+                 <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="exampleInputEmail1">Est. Cost Peak</label><br />
+                            <span class='est-cost-peak-display'>$0.00</span>
+                        </div>                        
+                        <div class="col-md-6">
+                            <label for="exampleInputEmail1">Est. Cost Off-Peak</label><br />
+                            <span class='est-cost-offpeak-display'>$0.00</span>
+                        </div>
+                        <div class="col-md-12">
+                            <span class='calc-error'>Please only enter numbers!</span>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary trip-calc-btn">Calculate</button>
+                <button type="button" class="btn btn-primary trip-calc-close" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+
+        </div>
+        </div>
+
+
+
+
+        <!-- Modal -->
+        <div id="myModalxxx" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">We have a future trip suggestion!</h4>
+            </div>
+            <div class="modal-body">
+                <span>This trip cost you $9.30, if you continue to make this trip over the year it is estimated it will cost you $483.60 based on your current usage.</span>
+                <br/><br/><span>If you instead took bus #363 from Stafford Road it would cost $5.96.  Over the same period it will cost you $309.92.</span>
+                <br/><br/><span style="font-weight: 700;">This is a saving of $173.68</span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary trip-calc-close" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
