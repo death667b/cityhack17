@@ -38,7 +38,7 @@ const calcEstCost = () => {
 	let showError = false;
 
 	let valueOut = $('#numOutCBD').val();
-	if (isNaN(valueOut)) { 
+	if (isNaN(valueOut) || '') { 
 		valueOut = 0; 
 		showError = true;
 	} 
@@ -47,7 +47,7 @@ const calcEstCost = () => {
 	estCostOffPeak = parseFloat(valueOut) * 0.05; 
 
 	let valueIn = $('#numInCBD').val();
-	if (isNaN(valueIn)) {
+	if (isNaN(valueIn) || '') {
 		valueIn = 0;
 		showError = true;
 	}
